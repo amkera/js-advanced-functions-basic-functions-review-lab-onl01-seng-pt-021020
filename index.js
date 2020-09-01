@@ -30,11 +30,15 @@ const Calculator = {
 }
 
 
-function actionApplyer(integer, arrayOfFunctions) {
-  
+let actionApplyer = function(start, arrayOfFunctions) {
+  let a = start
+
+  for (let i = 0; i < arrayOfFunctions.length; i++ ){
+    a = arrayOfFunctions[i](a)
+  }
+
+  return a
 }
-
-
 
 
 
