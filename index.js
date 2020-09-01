@@ -13,3 +13,15 @@ let wrapAdjective = function(style="*") {
     return `You are ${style}${adjective}${style}!`
   }
 }
+
+let calculator = {
+  function add 
+  
+  function subtract 
+  
+  function multiply 
+  
+  function divide 
+  
+  
+}
