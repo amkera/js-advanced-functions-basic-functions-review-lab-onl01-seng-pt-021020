@@ -28,3 +28,17 @@ const Calculator = {
     return a / b;
   }
 }
+
+
+function actionApplyer(integer, arrayOfFunctions) {
+  
+}
+
+
+
+
+
+
+
+
+
