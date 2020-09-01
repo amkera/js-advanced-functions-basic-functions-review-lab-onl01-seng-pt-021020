@@ -14,14 +14,17 @@ let wrapAdjective = function(style="*") {
   }
 }
 
-let calculator = {
-  function add 
-  
-  function subtract 
-  
-  function multiply 
-  
-  function divide 
-  
-  
+const Calculator = {
+  add: function(a,b) {
+    return a + b;
+  },
+  subtract: function(a,b) {
+    return a - b
+  },
+  multiply: function(a,b) {
+    return a * b
+  },
+  divide: function(a,b) {
+    return a / b;
+  }
 }
